@@ -9,7 +9,8 @@ The containers for AWX version 5+ require certain config files to run. That is i
 
 ## Getting Started 
 
-Follow the AWX install instructions but provide a few secrets as environmental variables:
+Follow the AWX install instructions but provide a few secrets as environmental variables. 
+Not all of these are necessary as some can use defaults. 
 
 ```
 SECRET_KEY=awxsecret
