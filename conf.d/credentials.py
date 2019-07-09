@@ -11,8 +11,11 @@ DATABASE_PASSWORD = os.getenv('DATABASE_PASSWORD', 'awxpassword')
 MEMCACHED_HOST = os.getenv('MEMCACHED_HOST', 'memcached')
 MEMCACHED_PORT = int(os.getenv('MEMCACHED_POST', '11211'))
 
-RABBITMQ_USER = os.getenv('RABBITMQ_USER', 'guest')
-RABBITMQ_PASSWORD = os.getenv('RABBITMQ_PASSWORD', 'awxpass')
+#
+# using AMQPLAIN auth mechanism
+# hence the hard-coded values
+RABBITMQ_USER = 'guest'  # os.getenv('RABBITMQ_USER', 'guest')
+RABBITMQ_PASSWORD = 'awxpass'  # os.getenv('RABBITMQ_PASSWORD', 'awxpass')
 RABBITMQ_HOST = os.getenv('RABBITMQ_HOST', 'rabbitmq')
 RABBITMQ_PORT = int(os.getenv('RABBITMQ_PORT', 5672))
 RABBITMQ_VHOST = os.getenv('RABBITMQ_VHOST', 'awx')
