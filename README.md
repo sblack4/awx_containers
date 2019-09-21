@@ -1,4 +1,9 @@
 # awx containers
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/sblack4/awx_task?label=awx_task%20docker%20build)](https://cloud.docker.com/repository/docker/sblack4/awx_task)
+[![Docker Pulls](https://img.shields.io/docker/pulls/sblack4/awx_task?label=awx_task%20docker%20pulls)](https://cloud.docker.com/repository/docker/sblack4/awx_task)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/sblack4/awx_web?label=awx_web%20docker%20build)](https://cloud.docker.com/u/sblack4/repository/docker/sblack4/awx_web)
+[![Docker Pulls](https://img.shields.io/docker/pulls/sblack4/awx_web?label=awx_web%20docker%20pulls)](https://cloud.docker.com/u/sblack4/repository/docker/sblack4/awx_web)
+
 Friendlier AWX containers 
 
 ## About 
